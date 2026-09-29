@@ -108,14 +108,8 @@ export default function Home() {
         <div className="container">
           <nav className={`nav ${menuOpen ? "open" : ""}`} aria-label="Main">
             <a className="brand" href="#top" aria-label="Smile Lead Provider, home">
-              <span className="brand-mark" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 64 64">
-                  <path
-                    fill="currentColor"
-                    d="M19 9c-6 0-11 5-11 12 0 7 4 11 7 16 3 5 2 18 8 18 4 0 4-10 9-10s5 10 9 10c6 0 5-13 8-18 3-5 7-9 7-16 0-7-5-12-11-12-6 0-9 4-13 4s-7-4-13-4z"
-                  />
-                </svg>
-              </span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="brand-mark" src="/logo-icon.png" alt="" width={844} height={601} aria-hidden="true" />
               Smile Lead Provider
             </a>
             <div className="nav-links" id="nav-links">
@@ -958,14 +952,8 @@ export default function Home() {
       <footer className="site-footer">
         <div className="container footer-row">
           <a className="brand" href="#top">
-            <span className="brand-mark" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 64 64">
-                <path
-                  fill="currentColor"
-                  d="M19 9c-6 0-11 5-11 12 0 7 4 11 7 16 3 5 2 18 8 18 4 0 4-10 9-10s5 10 9 10c6 0 5-13 8-18 3-5 7-9 7-16 0-7-5-12-11-12-6 0-9 4-13 4s-7-4-13-4z"
-                />
-              </svg>
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="brand-mark" src="/logo-icon.png" alt="" width={844} height={601} aria-hidden="true" />
             Smile Lead Provider
           </a>
           <nav className="footer-links" aria-label="Footer">

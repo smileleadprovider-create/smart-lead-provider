@@ -237,14 +237,10 @@ h3 {
 }
 
 .brand-mark {
-  width: 34px;
-  height: 34px;
-  border-radius: 8px;
-  background: var(--brand);
-  color: #fff;
-  display: grid;
-  place-items: center;
+  height: 30px;
+  width: auto;
   flex: none;
+  display: block;
 }
 
 .nav-links {
