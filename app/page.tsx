@@ -119,6 +119,9 @@ export default function Home() {
               Smile Lead Provider
             </a>
             <div className="nav-links" id="nav-links">
+              <a href="#about" onClick={() => setMenuOpen(false)}>
+                About
+              </a>
               <a href="#how" onClick={() => setMenuOpen(false)}>
                 How it works
               </a>
@@ -167,18 +170,35 @@ export default function Home() {
           <div className="container">
             <div className="hero-grid">
               <div>
-                <h1 id="hero-title">Pay for patient enquiries, not ad spend.</h1>
+                <h1 id="hero-title">Pay for patient enquiries, not ad spend</h1>
                 <p className="lede">
-                  We fund and run the ad campaigns for your clinic. You never set a budget or open a
-                  ad account. You get enquiries from people asking about treatments you offer, and you
-                  pay only for the ones that qualify.
+                  We fund and run the ads for your clinic. You receive enquiries from potential
+                  patients and pay only for qualified leads.
                 </p>
                 <div className="hero-actions">
-                  <a className="btn btn-primary" href="#audit">
-                    Request free audit
+                  <a className="btn btn-white" href="#audit">
+                    Get Free Lead Audit
                   </a>
-                  <a className="btn btn-secondary" href="#how">
-                    How it works
+                  <a
+                    className="btn btn-whatsapp"
+                    href="https://wa.me/971501234567"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp Us
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M3.5 10.5l7-7M6 3.5h4.5V8" />
+                    </svg>
                   </a>
                 </div>
                 <p className="hero-note">
@@ -298,6 +318,170 @@ export default function Home() {
                 <dd>No lock-in. Pause anytime.</dd>
               </div>
             </dl>
+          </div>
+        </section>
+
+        <section className="section" id="about" aria-labelledby="about-title">
+          <div className="container about-grid">
+            <div>
+              <p className="eyebrow">Who We Are</p>
+              <h2 id="about-title">We help dental clinics get more patients.</h2>
+              <p>
+                Smile Lead Provider is a performance-based dental lead generation company. We run
+                and fund our own advertising campaigns to find people actively looking for dental
+                treatments.
+              </p>
+              <p>
+                Instead of charging you upfront for advertising, we focus on generating{" "}
+                <strong>qualified dental leads</strong> for your clinic. You simply pay for the
+                leads you receive.
+              </p>
+            </div>
+            <div>
+              <p className="eyebrow">What We Do</p>
+              <h3>We handle the marketing. You handle the patients.</h3>
+              <p>
+                We create targeted campaigns for high-value dental treatments, attract potential
+                patients, and generate qualified leads based on your selected service and
+                location.
+              </p>
+              <p className="formula">Right Treatment + Right Audience + Right Clinic = Better Leads</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="section" id="what-you-get" aria-labelledby="wyg-title" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="section-head">
+              <h2 id="wyg-title">What you get.</h2>
+              <p>When you partner with Smile Lead Provider, you get:</p>
+            </div>
+            <ul className="feature-list">
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>Qualified dental leads</h3>
+                  <p>Potential patients interested in the treatments you offer.</p>
+                </div>
+              </li>
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>Exclusive leads</h3>
+                  <p>Leads generated specifically for your clinic.</p>
+                </div>
+              </li>
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>No upfront ad spend</h3>
+                  <p>We fund the advertising campaigns ourselves.</p>
+                </div>
+              </li>
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>Performance-based pricing</h3>
+                  <p>You only pay for the qualified leads you receive.</p>
+                </div>
+              </li>
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>Treatment-focused campaigns</h3>
+                  <p>Campaigns built around services such as implants, veneers, Invisalign, braces and All-on-4/6.</p>
+                </div>
+              </li>
+              <li className="feature">
+                <svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="9" cy="9" r="8" />
+                  <path d="M5.5 9.2l2.3 2.3 4.7-4.7" />
+                </svg>
+                <div>
+                  <h3>More opportunities to book patients</h3>
+                  <p>Our goal is to put genuine patient opportunities in front of your clinic.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section" id="promise" aria-labelledby="promise-title" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="promise">
+              <h2 id="promise-title">We pay for the ads. You pay for results.</h2>
+              <p>You focus on treating patients. We focus on bringing them to you.</p>
+              <p className="promise-price">From AED 29 / qualified lead</p>
+              <a className="btn btn-primary" href="#audit">
+                Get started
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="section"
+          id="live-map"
+          aria-labelledby="live-map-title"
+          style={{ paddingTop: 0, paddingBottom: 0 }}
+        >
+          <div className="container">
+            <div className="section-head">
+              <h2 id="live-map-title">Enquiries landing across the UAE, right now.</h2>
+              <p>
+                Every enquiry is matched to a treatment and a service area, then routed to one
+                exclusive clinic partner. This is a preview of how it looks &mdash; not a live feed.
+              </p>
+            </div>
+            <div className="map-card" aria-hidden="true">
+              <div className="globe">
+                <div className="map-glow" />
+              </div>
+
+              <span className="map-marker" style={{ top: "34%", left: "58%" }}>
+                <span className="map-dot" />
+                Dubai
+              </span>
+              <span className="map-marker" style={{ top: "52%", left: "52%" }}>
+                <span className="map-dot" />
+                Abu Dhabi
+              </span>
+              <span className="map-marker" style={{ top: "22%", left: "44%" }}>
+                <span className="map-dot" />
+                Sharjah
+              </span>
+
+              <div className="map-pill" style={{ top: "10%", left: "8%", animationDelay: "0s" }}>
+                <strong>New enquiry</strong>
+                <span>Invisalign &middot; 15 seconds ago</span>
+              </div>
+              <div className="map-pill" style={{ top: "58%", left: "4%", animationDelay: "0.7s" }}>
+                <strong>New enquiry</strong>
+                <span>Veneers &middot; 38 seconds ago</span>
+              </div>
+              <div className="map-pill" style={{ top: "38%", left: "62%", animationDelay: "1.4s" }}>
+                <strong>New enquiry</strong>
+                <span>Dental implants &middot; 2 min ago</span>
+              </div>
+
+              <span className="map-badge map-badge-left">Next lead partnership opens in 3 days</span>
+              <span className="map-badge map-badge-right">Live UAE activity</span>
+            </div>
           </div>
         </section>
 
@@ -740,9 +924,32 @@ export default function Home() {
                   city each month, so slots in busy areas go first.
                 </p>
               </div>
-              <a className="btn btn-primary" href="#audit">
-                Request free audit
-              </a>
+              <div className="final-actions">
+                <a className="btn btn-primary" href="#audit">
+                  Request free audit
+                </a>
+                <a
+                  className="btn btn-whatsapp"
+                  href="https://wa.me/971501234567"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WhatsApp Us
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M3.5 10.5l7-7M6 3.5h4.5V8" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </section>
