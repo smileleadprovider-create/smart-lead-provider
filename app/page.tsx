@@ -175,7 +175,7 @@ export default function Home() {
                   </a>
                   <a
                     className="btn btn-whatsapp"
-                    href="https://wa.me/971501234567"
+                    href="https://wa.me/923000051658"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -924,7 +924,7 @@ export default function Home() {
                 </a>
                 <a
                   className="btn btn-whatsapp"
-                  href="https://wa.me/971501234567"
+                  href="https://wa.me/923000051658"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

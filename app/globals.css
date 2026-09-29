@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -18,7 +17,7 @@
   --night-2: #15315a;
   --night-text: #b8c7db;
 
-  --font: "Schibsted Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font: var(--font-schibsted), "Helvetica Neue", Arial, system-ui, sans-serif;
   --container: 1160px;
   --gutter: clamp(20px, 4vw, 40px);
   --section: clamp(72px, 10vw, 128px);
